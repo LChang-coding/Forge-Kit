@@ -1,6 +1,6 @@
 autoDeleteData: false
 autoDetectedPackages:
-- com.Lcode.entity.Config
+- com.Lcode
 autoKeepDataNum: 10
 enableAutoDetect: true
 entryDisplayConfig:

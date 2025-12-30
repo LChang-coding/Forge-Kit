@@ -1,0 +1,23 @@
+spring:
+  rabbitmq:
+    # 1. 基础连接配置
+    host: localhost        # RabbitMQ 服务器地址（如果是本地 Docker 运行则用 localhost）
+    port: 5672             # 消息通信端口 (默认 5672，注意不是 15672 管理后台端口)
+    username: admin        # 必须与 Docker run 命令中的 RABBITMQ_DEFAULT_USER 一致
+    password: password     # 必须与 Docker run 命令中的 RABBITMQ_DEFAULT_PASS 一致
+    virtual-host: /        # 虚拟主机，用于逻辑隔离（默认是 / ）
+
+    # 2. 消费者监听器配置 (Listener)
+    listener:
+      simple:
+        # 并发消费者初始数量：项目启动时会开启 3 个线程来处理消息
+        concurrency: 3
+
+        # 最大并发消费者数量：当消息堆积严重时，会自动扩容线程，最高到 10 个
+        max-concurrency: 10
+
+        # 预取值 (QoS)：这是最重要的优化项之一
+        # 控制每个消费者缓存到本地的消息数量。设置为 1 表示“能者多劳”：
+        # 消费者处理完当前这条消息并返回 ACK 前，RabbitMQ 不会再给它发下一条。
+        # 这样可以防止某一个线程处理太慢导致消息堆积，实现更公平的负载均衡。
+        prefetch: 1

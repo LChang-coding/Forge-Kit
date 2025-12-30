@@ -5,7 +5,10 @@ import org.springframework.amqp.core.BindingBuilder;
 import org.springframework.amqp.core.DirectExchange;
 import org.springframework.amqp.core.Queue;
 import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.ComponentScan;
+import org.springframework.context.annotation.Configuration;
 
+@Configuration
 public class RabbitConfig {
     public static final String USER_REGISTER_QUEUE = "user.register.queue";//定义存放消息的的队列
     public static final String USER_EXCHANGE = "user.exchange";//定义交换机
