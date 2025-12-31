@@ -416,8 +416,8 @@ public class UserConsumer {
 ```
 
 结果如下：
+<img width="2606" height="222" alt="84989cfb-4d6e-4ad7-bd87-075202470d5b" src="https://github.com/user-attachments/assets/9295f72b-94ca-4252-b296-bc232e209e5c" />
 
-![Uploading 84989cfb-4d6e-4ad7-bd87-075202470d5b.png…]()
 
 
 
