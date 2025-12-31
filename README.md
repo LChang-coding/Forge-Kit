@@ -1,4 +1,4 @@
-<img width="1626" height="231" alt="98e8aef0-3a19-46af-b659-5868368597ba" src="https://github.com/user-attachments/assets/6ec7db38-70d6-436f-9a85-c01c409dd8b4" />## 第一步 构建springboot项目引入依赖
+## 第一步 构建springboot项目引入依赖
 
 ```java
 <dependency>
