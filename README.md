@@ -1,4 +1,4 @@
-## 第一步 构建springboot项目引入依赖
+<img width="1626" height="231" alt="98e8aef0-3a19-46af-b659-5868368597ba" src="https://github.com/user-attachments/assets/6ec7db38-70d6-436f-9a85-c01c409dd8b4" />## 第一步 构建springboot项目引入依赖
 
 ```java
 <dependency>
@@ -161,7 +161,7 @@ public class UserConsumer {
 
 运行结果
 
-![4fcf5cd7-d64d-4fd7-8a1a-1c0bab5a47c2](C:\Users\jwjwc\AppData\Local\Temp\4fcf5cd7-d64d-4fd7-8a1a-1c0bab5a47c2.png)
+<img width="1872" height="823" alt="4fcf5cd7-d64d-4fd7-8a1a-1c0bab5a47c2" src="https://github.com/user-attachments/assets/d1d8ef1e-0497-4351-bfc3-0e291676b64c" />
 
 
 
@@ -341,7 +341,8 @@ public class UserConsumer {
 
 该方法通过发送到无效交换器 使ack为false 结果如下
 
-![3559cbae-597b-42a5-b509-a7744ae72336](C:\Users\jwjwc\AppData\Local\Temp\3559cbae-597b-42a5-b509-a7744ae72336.png)
+<img width="1218" height="372" alt="3559cbae-597b-42a5-b509-a7744ae72336" src="https://github.com/user-attachments/assets/ea996b9e-9eae-4351-8748-8cbac5a0d0f1" />
+
 
 重试三次进入死信队列。
 
@@ -376,8 +377,8 @@ public class UserConsumer {
 结果如下：
 
 
+<img width="1626" height="231" alt="98e8aef0-3a19-46af-b659-5868368597ba" src="https://github.com/user-attachments/assets/f525f09a-c30e-4cd0-b88f-3b027cfb942b" />
 
-![98e8aef0-3a19-46af-b659-5868368597ba](C:\Users\jwjwc\AppData\Local\Temp\98e8aef0-3a19-46af-b659-5868368597ba.png)
 
 
 
@@ -416,7 +417,8 @@ public class UserConsumer {
 
 结果如下：
 
-![84989cfb-4d6e-4ad7-bd87-075202470d5b](C:\Users\jwjwc\AppData\Local\Temp\84989cfb-4d6e-4ad7-bd87-075202470d5b.png)
+![Uploading 84989cfb-4d6e-4ad7-bd87-075202470d5b.png…]()
+
 
 
 
